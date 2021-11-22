@@ -1,0 +1,7 @@
+version: 1.0
+name: ZelChat
+main: com.zeltaria.main.Main
+author: Zeltaria
+description: Chat plugin
+commands:
+  chatquestion:

@@ -1,0 +1,12 @@
+#Liste des mots a faire deviner
+mots:
+  - "apple"
+  - "minecraft"
+  - "iron door"
+  - "diamond"
+  - "shield"
+  - "painting"
+#Délai en secondes d'attente avant la prochaine question
+delay: 60
+#argent donné au joueur qui a trouver la bonne réponse
+reward: 50
