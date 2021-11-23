@@ -2,7 +2,7 @@ package com.zeltaria.events;
 
 import com.zeltaria.commands.ChatQuestion;
 import com.zeltaria.main.Main;
-import com.zeltaria.tasks.SchedulerManager;
+import com.zeltaria.managers.SchedulerManager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;

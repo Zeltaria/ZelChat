@@ -2,7 +2,7 @@ package com.zeltaria.main;
 
 import com.zeltaria.commands.ChatQuestion;
 import com.zeltaria.events.PlayerChat;
-import com.zeltaria.tasks.SchedulerManager;
+import com.zeltaria.managers.SchedulerManager;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.RegisteredServiceProvider;
