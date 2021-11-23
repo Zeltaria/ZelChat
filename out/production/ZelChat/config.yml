@@ -8,5 +8,7 @@ mots:
   - "painting"
 #Délai en secondes d'attente avant la prochaine question
 delay: 60
+#Délai d'attente en secondes pour répondre avant de donner la réponse
+wait: 120
 #argent donné au joueur qui a trouver la bonne réponse
 reward: 50

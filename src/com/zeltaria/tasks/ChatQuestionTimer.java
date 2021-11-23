@@ -10,12 +10,13 @@ import org.bukkit.scheduler.BukkitRunnable;
 public class ChatQuestionTimer extends BukkitRunnable{
 
     private int timer;
-    private SchedulerManager sm;
-    private int wait = 120;
+    private final SchedulerManager sm;
+    private final int wait;
 
     public ChatQuestionTimer(Main main, SchedulerManager sm) {
         this.sm = sm;
         int delay = main.getConfig().getInt("delay");
+        wait = main.getConfig().getInt("wait");
         timer = delay + wait;
 
     }
